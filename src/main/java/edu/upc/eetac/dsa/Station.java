@@ -13,6 +13,10 @@ public class Station {
     private double lon;
     private LinkedList<Bike> listBikes;
 
+    public Station() {
+
+    }
+
     public Station(String idStation, String description, int max, double lat, double lon) {
         this.idStation = idStation;
         this.description = description;

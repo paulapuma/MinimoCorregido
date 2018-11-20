@@ -12,10 +12,10 @@ public class User {
     private String surname;
     private LinkedList<Bike> bikesUserList;
 
-    /*public User() {
+    public User() {
 
     }
-    */
+
     public User(String userId){
         this.idUser = userId;
         this.name = null;

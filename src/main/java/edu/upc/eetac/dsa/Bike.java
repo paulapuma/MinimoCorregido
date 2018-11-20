@@ -5,6 +5,10 @@ public class Bike {
     private String description;
     private double kms;
 
+    public Bike() {
+
+    }
+
     public Bike(String idBike, String description, double kms) {
         this.idBike = idBike;
         this.description = description;
